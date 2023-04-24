@@ -1,0 +1,64 @@
+html,
+body,
+* {
+  font-family: JetBrains Mono, Arial, Helvetica, sans-serif, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.main-body button {
+  
+  padding: 10px 20px;
+  margin: 40px 50px;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: wheat;
+  color: black;
+  border: 1px solid black;
+}
+
+.shuffle:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: ease-in-out;
+  background-color: lightseagreen;
+  color: black;
+}
+
+.sort:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: ease-in-out;
+  background-color: lightgreen;
+  color: black;
+}
+
+.knowAbout a{
+  text-decoration: none;
+  color: black;
+}
+
+.knowAbout:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: ease-in-out;
+  background-color: lightcoral;
+  color: black;
+}
+
+canvas {
+  display: block;
+
+  padding: 0px;
+  margin: 10px auto;
+
+  border: 1px solid black;
+}
